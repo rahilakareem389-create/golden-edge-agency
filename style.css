@@ -807,6 +807,13 @@ form {
 
 }
 
+.copyright{
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 /* INPUT DESIGN */
 
