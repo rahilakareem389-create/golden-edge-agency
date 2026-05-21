@@ -80,10 +80,21 @@ li{
   padding: 200px 0;
 
 } */
- section{
+ /* section{
   padding: 80px 0;
+} */
+
+section{
+  padding: 100px 0;
 }
 
+.container,
+.container-one{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 
 .headere{
@@ -177,11 +188,10 @@ box-shadow: o 0 10px rgba(21, 19, 19 ,0.4);
 .hero-section{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  height: 100vh;
-  padding: 100px !important;
-  margin-left: 20px;
-  margin-top: 80px;
+  justify-content: center;
+   min-height: 100vh;
+ padding: 180px 0 100px !important;
+  margin: 0;
 
   
 }
@@ -397,12 +407,20 @@ width: 200px;
   
 }
 .section-philosophy{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-evenly;
   
   padding: 100px !important;
-  margin: 0px 10px;
+  margin: 0px 10px; */
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 0 !important;
+
+  margin: 0;
   
   
 }
@@ -454,13 +472,23 @@ margin: 15px;
   font-weight: 1.1rem;
 }
 .our-services{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 100vh;
   padding: 100px !important;
   margin:10px;
-  margin-top: 80px;
+  margin-top: 80px; */
+
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 0 !important;
+
+  margin: 0;
+
+  height: auto;
 }
 
 
@@ -502,16 +530,22 @@ margin: 15px;
   border-radius: 12px;
 
 }
+.counter-section{
+  padding: 100px 0;
+}
 
 
 
-.counter-section .container{
+
+/* .counter-section .container{
   max-width: 1100px;
   margin-top: 100px;
   width: 82%;
-}
+} */
 
 .counter-section .counter{
+    margin-top: 0;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -536,13 +570,17 @@ margin: 15px;
   color: var(--accent);
   font-size: 30px;
 }
+
+.section-process{
+  padding: 100px 0;
+}
 .process-wrap{
-  margin: 40px;
+  margin: 0;
   margin-top: 10px;
 }
 
 .long-card{
-  margin-top:40px;
+  margin-top:30px;
  }
  
 .long-card-content{
@@ -570,9 +608,16 @@ margin: 15px;
 }
 
  .section-business{
-   display: flex;
+   /* display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 0;
+
+  margin: 0;
  
  }
 
@@ -590,22 +635,45 @@ margin: 15px;
   white-space: nowrap;
 } 
 
- .business-wrap{
+.section-business{
+  padding: 100px 0;
+}
+
+.business-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+  padding: 40px;
+
+  background-color: #0b0b0e;
+  border: 1px solid var(--card-strong);
+  border-radius: var(--radius-lg);
+
+  margin: 0;
+}
+
+.your-business{
+  width: 60%;
+}
+
+ /* .business-wrap{
   display: flex;
   align-items: center;
   justify-content: space-between;
   
- }
- .your-business{
+ } */
+ /* .your-business{
   width: 60%
- }
- .business-wrap{
+ } */
+ /* .business-wrap{
   margin: 20px;
   padding: 30px;
   background-color: #0b0b0e;
   border: 1px solid var(--card-strong);
-  border-radius: var(--radius-lg);
- }
+  border-radius: var(--radius-lg); */
+ 
 .business-heading{
  background-color: #0b0b0e;
  border: 1px solid #504841;
@@ -621,16 +689,21 @@ margin: 15px;
   display:inline-block;  
 
 }
-.container-one{
-  width: 1100px;
-  
-}
 .contact-section{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin:10px;
   margin-top: 80px;
+  width: 100%; */
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 0 !important;
+
+  margin: 0;
+
   width: 100%;
 }
 .contact-wrap{
@@ -715,7 +788,7 @@ form {
 }
 
 
-.footer-wrap{
+ .footer-wrap{
   display: flex;
 
   justify-content: space-between;
@@ -724,11 +797,14 @@ form {
   background-color: #131112;
   border: 1px solid #555;
   border-radius: 12px;
-}
+} 
 .footer{
   color: var(--muted);
   font-size: 14px;
   min-width: 60px;
+  padding: 60px 0 30px;
+
+
 }
 
 
@@ -770,5 +846,9 @@ input:focus{
     box-shadow:
     0 0 12px rgba(214,165,106,0.4);
 }
+
+
+
+
 
 
